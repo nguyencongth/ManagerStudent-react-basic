@@ -1,0 +1,18 @@
+Sử dụng cấu trúc dữ liệu
+
+products = [
+    {pId:"P001", productName:"IPhon11", image:"iphone11.jpg", qty:20, price:1000},
+    {pId:"P002", productName:"IPhon12", image:"iphone12.jpg", qty:25, price:1200},
+    {pId:"P003", productName:"IPhon13", image:"iphone13.jpg", qty:15, price:1400},
+    {pId:"P004", productName:"IPhon14", image:"iphone14.jpg", qty:30, price:1800}
+]
+
+--- xây dựng ứng dụng quản lý sản phẩm
+    - hiển thị danh sách sản phẩm, thêm cột thành tiền và cuối danh sách có tổng thành tiền
+    - xử lý các chức năng( thêm, sửa, xóa)
+    - tương tự như quản lý sinh viên
+        + tìm theo tên, mã, giá trong khoảng
+        + sắp xếp theo: mã, tên, số lượng, đơn giá, thành tiền
+
+
+*) có thẻ lưu trữ dữ liệu trên localStorage
